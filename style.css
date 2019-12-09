@@ -4,7 +4,6 @@
 
 html,
 body {
-    margin: 0;
     min-width: 1200px;
 }
 
@@ -17,4 +16,73 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+
+/* ------ header ------ */
+
+header {
+    background-color: #555;
+    padding: 30px 0;
+}
+
+nav {
+    width: 1050px;
+    font-size: 0;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #CFD8DC;
+}
+
+nav a:hover {
+    color: #eee;
+}
+
+nav>a {
+    width: 20%;
+}
+
+nav ul a {
+    width: 100%;
+    padding: 5% 0;
+}
+
+nav h1 {
+    font-size: 22px;
+    letter-spacing: 7px;
+}
+
+nav ul {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    width: 70%;
+}
+
+nav li {
+    display: inline-block;
+    width: 8%;
+    font-size: 16px;
+    margin-left: 8%;
+}
+
+nav li:nth-child(4) {
+    width: 19%;
+}
+
+nav li:nth-child(5) {
+    width: 12%;
+}
+
+nav .cart {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
 }
