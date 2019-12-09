@@ -177,3 +177,92 @@ section.banner {
 .recommend img+img {
     margin-left: 5px;
 }
+
+
+/* -----footer------ */
+
+footer {
+    background-color: #555;
+    color: #eee;
+    padding: 80px 0;
+    font-size: 0;
+}
+
+.footer_wrapper {
+    width: 950px;
+    margin: auto;
+}
+
+footer h4 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #CFD8DC;
+    letter-spacing: 2px;
+}
+
+.social {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+}
+
+.social a {
+    display: inline-block;
+    width: 20px;
+}
+
+.social a img {
+    width: 100%;
+}
+
+.social a+a {
+    margin-left: 25px;
+}
+
+.email {
+    display: inline-block;
+    vertical-align: top;
+    width: 36%;
+    margin-left: 12%;
+}
+
+.email input {
+    width: 100%;
+    background-color: #555;
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.email button {
+    display: block;
+    margin-left: auto;
+    font-size: 16px;
+    color: #666;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.email input::placeholder {
+    color: #eee;
+}
+
+.contact {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 12%;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #CFD8DC;
+    margin-top: 75px;
+}
