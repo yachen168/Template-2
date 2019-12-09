@@ -86,3 +86,60 @@ nav .cart {
     width: 10%;
     text-align: right;
 }
+
+
+/* ----- main ------*/
+
+section.banner {
+    background: url("./img/cover.jpg");
+    padding: 280px 0 195px 0;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.shipping {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 5px;
+    padding: 15px 0;
+    background-color: #E0E0E0;
+    color: #666;
+}
+
+.title_wrapper {
+    width: 43%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    color: #333;
+    background-color: rgba(256, 256, 256, 0.5);
+}
+
+.title_wrapper h2 {
+    display: inline-block;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.title_wrapper a {
+    display: inline-block;
+}
+
+.title_wrapper .button_buy {
+    font-size: 20px;
+    padding: 10px 75px;
+    color: #eee;
+    background-color: #333;
+    border-color: #333;
+}
+
+.tips {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    color: #555;
+    position: relative;
+}
