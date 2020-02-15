@@ -7,4 +7,4 @@ block、inline、inline-block 切版。
 
 #### 設計稿:
 
-![](/Template_2.png)
+![](./Template_2.png)
